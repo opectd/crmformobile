@@ -1,0 +1,23 @@
+ /*网销主页面*/
+ /*顶部样式*/
+.dailishang_ico{margin-right:6px;margin-top:20px;}
+/*中间部分*/
+.main_con{margin-top:50px;margin-bottom:50px;}
+.main_con2{margin-top:100px;margin-bottom:50px;}
+/*header*/
+.con_top{position:relative;height:100px;background:#f39800;}
+.con_top em{position:absolute;top:4px;right:0;display:block;width:1px;height:92px;background:#cccccc;filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;}
+.con_top p{font-size:16px;font-family:"微软雅黑";color:#ffffff;font-weight:bold;margin:24px 0 0 80px;text-align:center;line-height:28px;}
+.con_top span{position:absolute;top:20px;left:10px;display:block;width:60px;height:60px;border-radius:30px;background:#ffffff;text-align:center;line-height:60px;font-weight:bold;font-size:32px;color:#f39800;}
+.con_top strong{font-size:20px;}
+/*九宫格*/
+.con_box{height:80px;text-align:center;border-bottom:1px solid #f1f1f1;border-right:1px solid #f1f1f1;padding-left:0;padding-right:0;}
+.con_box img{width:40px;height:40px;margin-top:10px;}
+.con_box p{font-size:12px;text-align:center;margin:2px 0 0 0;line-height:12px;}
+.con_box ul{margin-top:38px;margin-left:26px;}
+.con_box li{display:block;width:6px;height:6px;background:#f1f1f1;float:left;margin-right:4px;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;}
+/*设计师*/
+.pa{padding-left:0;padding-right:0;color:#333;font-size:16px;font-weight:600;}
+.pa li{width:50%;font-weight:bold;}
+.pa span{color:#ff0000;}
+

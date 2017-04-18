@@ -1,0 +1,87 @@
+/*通用样式*/
+body,html{overflow-x:hidden;}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form,input,table,tr,td,dl,dt,dd,img,div,span{margin:0;padding:0;border:0;}
+body{font:12px/20px "Microsoft Yahei",Arial;color:#000;}
+ol,ul{list-style-type:none;}
+img{margin:0 auto;display:block;border:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+a{text-decoration:none;color: #fff;}
+em,i{font-style:normal;}
+:focus{outline:0;}
+.clear{clear:both;}
+/*登陆页面*/
+.navbar-header{line-height:50px;}
+.navbar-header img{width:132px;margin-left:10px;margin-top:10px;}
+.form_con{margin-top:50px;}
+.form_con .title{text-align:center;font-size:36px;font-weight:bold;margin-top:30px;margin-bottom:40px;line-height:36px;}
+.form_con input[type]{width:240px;height:50px;font-size:16px;margin:0 auto;text-indent:40px;color:#cccccc;}
+.form_con .col-xs-6 input[type]{width:100px;margin-left:26px;text-indent:0;}
+.form_con .ri{margin-left:-22px;}
+.form_con .form-group{position:relative;}
+.form_con .form-group span{position:absolute;top:8px;left:50%;margin-left:-108px;color:#cccccc;font-size:32px;}
+.form_con #indexPassword2{width:14px;height:14px;margin-left:28px;margin-top:10px;}
+.form_con em{line-height:20px;font-size:16px;color:#666;}
+.form_con .col_btn{text-align:center;margin-top:20px;}
+.form_con .btn{width:80%;height:44px;font-size:16px;font-weight:bold;}
+/*顶部返回图标*/
+.navbar-header{font-size:16px;color:#ffffff;font-family:"微软雅黑";line-height:40px;text-indent:20px;}
+.navbar-header .top_ico{margin-top:-6px;}
+.navbar-header .top_ico{display:inline-block;width:36px;height:36px;background:url(../images/u231.png) no-repeat 10px 18px;margin-right:6px;}
+.navbar-header .search{font-size:22px;top:0px;right:0px;width:68px;height:50px;background:red;line-height:50px;}
+.navbar-header em{display:inline-block;width:20px;height:20px;background:#ff2222;border-radius:10px;top:14px;left:158px;position:absolute;font-size:12px;color:#ffffff;text-indent:2px;line-height:18px;font-family:"微软雅黑";font-weight:bold;}
+/*弹窗搜索样式*/
+.serach_con{position:fixed;top:50px;left:0;height:180px;background:#ffffff;width:100%;text-align:center;}
+.serach_con .serach_input{height:40px;font-size:16px;line-height:40px;background:#f2f2f2;border-radius:0;border:none;margin-top:30px;}
+.serach_con p{font-size:12px;color:#999999;margin-top:10px;text-align:center;line-height:20px;}
+.serach_con button{width:120px;margin-top:26px;font-size:16px;font-weight:bold;}
+/*图片轮播*/
+.tu .col-xs-12{height:90px;background:#f1f1f1;line-height:90px;padding-top:4px;padding-left:0;padding-right:0;}
+.tu img{width:100%;height:80px;}
+/*信息条*/
+.bar_title{height:50px;line-height:40px;font-size:16px;text-align:right;color:#999999;background:#ffffff;border-bottom:10px solid #f1f1f1;}
+.bar_title_left{text-align:left;}
+.bar_title1{border-bottom:1px solid #f1f1f1;height:40px;}
+.bar_title1 p{color:#666;}
+.bar_title1 p span{margin-right:4px;color:#2995e9;}
+.bar_title strong{color:#FF0000;margin-left:10px;}
+.bar_title .t{color:#666666;font-size:16px;font-weight:bold;}
+.bar_title .dg{font-size:12px;}
+.bar_con{position:relative;height:50px;line-height:40px;font-size:14px;text-align:left;padding-left:0;padding-right:0;color:#999999;background:#ffffff;border-bottom:1px solid #f2f2f2;}
+.bar_con img{position:absolute;top:6px;left:8px;width:36px;}
+.bar_con .type{display:block;font-size:18px;color:#333333;margin-top:-2px;margin-left:50px;}
+.bar_con em{display:block;margin-top:-20px;margin-left:52px;}
+.bar_con i{display:block;margin-top:-6px;margin-left:20px;font-size:16px;color:#ff0000;}
+.bar_con .icon{top:-36px;left:120px;font-size:18px;color:#ff0000;}
+.bar_con p{position:absolute;bottom:-10px;right:10px;font-size:12px;margin-top:-56px;margin-left:26px;}
+.bar_con .des{right:36px;}
+.bar_con .des2{margin-top:-42px;margin-left:230px;color:#666666;}
+/*信息条2*/
+.navbar-fixed-top{border-width:0;}
+.navbar .bar_title{position:relative;color:#333333;border-bottom:1px solid #f2f2f2;padding-left:0;padding-right:0;line-height: 50px;}
+.navbar .bar_title p{text-align:center;}
+.navbar .bar_title em{position:absolute;top:0;left:20px;}
+.navbar .bar_title .bar{position:absolute;top:4px;left:10px;display:inline-block;width:4px;height: 40px;background:#FF6600}
+/*信息条3*/
+.bar_con2{height:50px;font-size:14px;text-align:left;padding-left:16px;padding-right:0;color:#333333;background:#ffffff;border-bottom:1px solid #f2f2f2;}
+.bar_con2 .form-control{width:60%;background:#ffffff;color:#999999;border:0;height:20px;border-radius:0px;margin-left:60px;margin-top:4px;}
+/*底部样式*/
+.navbar-fixed-bottom{height:50px;background:#ffffff;}
+.footer_box{text-align:center;height:50px;background:#f2f2f2;}
+.footer_box img{margin-top:8px;}
+.footer_box p{margin:4px 0 0 0;font-size:12px;color:#666;}
+/*我的样式*/
+.main_x .top{padding-left:0;padding-right:0;height:180px;background:#f39800;}
+.main_x .top span{display:block;width:80px;height:80px;background:#ffffff;border-radius:40px;text-align:center;line-height:80px;font-size:18px;font-weight:bold;color:#333333;margin-top:16%;margin-left:36%;}
+.main_x .bar_r{height:50px;border-bottom:1px solid #f1f1f1;color:#999999;font-size:18px;line-height:50px;}
+.main_x .lock{display:inline-block;width:30px;height:30px;background:#ec5657;border-radius:16px;line-height:30px;text-align:center;font-size:16px;color:#ffffff;}
+.main_x .ri{font-size:20px;}
+.main_x .row_r{margin-top:40px;}
+.main_x .row_r .bar_r{border-top:1px solid #f1f1f1;}
+.main_x .row_r .lock{background:#46b9e8;}
+/*密码修改页面*/
+.main_pwd .bar_con2{height:66px;}
+.main_pwd p{font-size:16px;margin-top:6px;}
+.main_pwd .form-control{height:24px;margin-left:14px;}
+.main_pwd .bar_con2_btn .bar_con2{border-bottom:none;text-align:center;padding-left:0;padding-right:0;}
+.main_pwd .btn{width:80%;height:44px;margin-top:10px;font-size:22px;}
+/*我的活动*/

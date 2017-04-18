@@ -1,0 +1,24 @@
+/*顶部样式*/
+.navbar-header .row{margin-left:0;font-size:14px;}
+.navbar-header .dailishang_ico{color:#ffffff;}
+.navbar-header .name{display:inline-block;color:#ffffff;text-indent:10px;}
+/*顶部返回图标样式*/
+.navbar-header .dailishang_ico{-moz-transform:scaleX(-1);-webkit-transform:scaleX(-1);-o-transform:scaleX(-1);-ms-transform:scaleX(-1);transform:scaleX(-1);}
+.navbar-header .head_con{left:50%;}
+.navbar-header .search{font-size:18px;top:0px;right:-36px;color:#ffffff;width:68px;height:50px;line-height:50px;}
+/*底部样式*/
+footer.navbar-inverse{background:#f2f2f2;border-color:#f2f2f2;}
+footer .se{left:33.33%;}
+footer .fi{left:66.66%;}
+footer span{display:block;color:#666666;}
+footer .active{color:#337ab7;}
+footer em{display:block;color:#666666;margin-top:14%;font-size:12px;}
+/*文字自适应*/
+@media(min-width:768px){
+	/*顶部文字*/
+	.navbar-header .row{font-size:36px;}
+	.navbar-header .search{font-size:38px;}
+	/*底部样式*/
+	footer span{font-size:28px;}
+	footer em{margin-top:8%;font-size:22px;}
+}

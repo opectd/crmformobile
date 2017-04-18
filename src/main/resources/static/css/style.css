@@ -1,0 +1,85 @@
+/*通用样式*/
+body,html{overflow-x:hidden;}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form,input,table,tr,td,dl,dt,dd,img,div,span{margin:0;padding:0;border:0;}
+body{font:12px/20px "Microsoft Yahei",Arial;color:#000;}
+ol,ul{list-style-type:none;}
+img{margin:0 auto;display:block;border:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;} 
+a{text-decoration:none;color: #000000;}
+em,i{font-style:normal;}
+/*图片垂直居中*/
+.tu_middle{position:absolute;top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%);}
+.tu_middle2{top:40%;text-align:center;}
+/*宽高固定比例*/
+.wh{height:0;padding-bottom:10%;line-height:20%;}
+/*登陆框样式*/
+.mt_20{margin-top:30%;}
+.text-style{font-size:26px;color:#337ab7;margin-bottom:30px;}
+.form .group input[type]{text-indent:20px;}
+.form .form-group{position:relative;}
+.form .form-group span{position:absolute;top:10px;left:8px;font-size:22px;color:#cccccc;}
+.form .tip{display:none;text-align:center;margin-top:10px;line-height:32px;color:#ff0000;}
+/*中间部分头部样式*/
+.main_con{margin-top:50px;margin-bottom:50px;}
+.con_top{position:relative;height:120px;background:#f39800;padding-right:0;}
+.con_top em{position:absolute;top:6px;right:0;display:block;width:1px;height:110px;background:#cccccc;filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;}
+.con_top span{position:absolute;top:18%;left:6%;display:block;width:70px;height:70px;border-radius:60px;background:#ffffff;text-align:center;line-height:70px;font-weight:bold;font-size:36px;color:#f39800;}
+.con_top p{font-size:14px;font-family:"微软雅黑";color:#ffffff;margin:22% 0 0 42%;text-align:center;line-height:28px;}
+#chart5 span{background:#f39800;width:0;}
+#chart6 span{background:#f39800;width:0;}
+/*九宫格*/
+.con_box{height:80px;text-align:center;border-bottom:1px solid #f1f1f1;border-right:1px solid #f1f1f1;padding-left:0;padding-right:0;}
+.con_box_rborder{border-right:0;}
+.con_box img{width:50%;margin-top:10px;}
+.con_box p{font-size:12px;text-align:center;margin:2px 0 0 0;line-height:12px;}
+.con_box ul{margin-top:38px;margin-left:26px;}
+.con_box li{display:block;width:6px;height:6px;background:#f1f1f1;float:left;margin-right:4px;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;}
+/*图片轮播*/
+.tu .col-xs-12{height:90px;background:#f1f1f1;line-height:90px;padding-top:4px;padding-left:0;padding-right:0;}
+.tu img{width:100%;height:80px;}
+/*信息条1(一行文字)*/
+.bar_con{height:50px;line-height:50px;font-size:16px;padding-right:0;text-align:left;color:#666666;background:#ffffff;border-bottom:1px solid #f1f1f1;}
+.bar_con_right{padding-right:15px;text-align:right;}
+.bar_con strong{color:#FF0000;margin-left:10px;} 
+.mb_8{border-bottom:8px solid #f1f1f1;height:58px;}
+.bar_font{font-size:14px;}
+/*标题1*/
+.bar_title{color:#333;font-family:"微软雅黑";font-weight:500;}
+.bar_title p span{margin-right:6px;color:#2995e9;}
+/*个人信息*/
+.main_my{padding-left:0;padding-right:0;}
+.main_my .top{padding-left:0;padding-right:0;background:#f39800;}
+.main_my .top span{display:block;margin-bottom:12%;width:80px;height:80px;background:#ffffff;border-radius:40px;text-align:center;line-height:80px;font-size:18px;font-weight:bold;color:#333333;margin-top:16%;margin-left:36%;}
+.main_my .bar_r{height:50px;border-bottom:1px solid #f1f1f1;color:#999999;font-size:18px;line-height:50px;}
+.main_my .bar_span{text-align:center;}
+.main_my .lock{display:inline-block;width:30px;height:30px;background:#ec5657;border-radius:16px;line-height:30px;text-align:center;font-size:16px;color:#ffffff;}
+.main_my .ri{font-size:20px;}
+.main_my .row_r{margin-top:40px;}
+.main_my .row_r .bar_r{border-top:1px solid #f1f1f1;}
+.main_my .row_r .lock{background:#46b9e8;}
+.main_my .bar_left{padding-left:0;}
+/*密码修改页面*/
+.main_pwd .bar_con2{height:66px;font-size:14px;text-align:left;padding-left:16px;padding-right:0;color:#333333;background:#ffffff;border-bottom:1px solid #f2f2f2;}
+.main_pwd p{font-size:16px;margin-top:12px;}
+.bar_con2 .form-control{width:60%;background:#ffffff;color:#999999;border:0;height:20px;border-radius:0px;margin-left:60px;margin-top:4px;}
+.main_pwd .form-control{height:24px;margin-left:14px;}
+.main_pwd .bar_con2_btn .bar_con2{border-bottom:none;text-align:center;padding-left:0;padding-right:0;}
+.main_pwd .btn{width:80%;height:44px;margin-top:10px;font-size:22px;}
+/*文字自适应*/
+@media(min-width:768px){
+	/*中间部分*/
+	.main_con{margin-top:94px;margin-bottom:94px;}
+	.con_top{height:250px;}
+	.con_top em{height:240px;}
+	.con_top span{width:130px;height:130px;border-radius:100px;line-height:130px;font-size:60px;}
+	.con_top p{font-size:36px;line-height:60px;margin:18% 0 0 40%;}
+	/*九宫格*/
+	.con_box{height:170px;}
+	.con_box img{margin-top:16px;}
+	.con_box p{font-size:22px;line-height:30px;}
+	/*图片轮播*/
+	.tu .col-xs-12{height:150px;}
+	.tu img{height:140px;}
+	/*个人信息*/
+	.main_my .top span{width:160px;height:160px;border-radius:80px;line-height:160px;font-size:30px;}
+}
